@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Change State</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div class="cover">
+        <div id="sidenav" class="sidenav">
+            <a href="./addCandidate.html">Add Candidates</a> <br>
+            <a href="./addVoters.html">Add Voters address</a> <br>
+            <a href="./state.html"  class="currentPage">Change State</a> <br>
+            <p id="userAddress" class="text-center"></p>
+        </div>
+    </div>
+
+    <div class="formWrap">
+        <form>
+            <fieldset>
+                <legend>Change State:
+                    <br>
+                    <p id="currentPhase" class="text-center"></p> <br>
+                </legend><br>
+                <label>Current State:</label><br>
+                <br>
+                <select name="phase" value="current">
+                    <option value="Registration">Registration</option>
+                    <option value="Election">Election</option>
+                    <option value="Result">Result</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <input id="currentPhase" class="button" type="submit"></input> 
+            </fieldset>
+        </form>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="src/js/contract.js"></script>
+
+</body>
+</html>

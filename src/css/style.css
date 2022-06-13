@@ -1,0 +1,188 @@
+body{
+    background-color: #61BCCB;
+    color: black;
+    background-size: cover;
+    font: "Lucida Grande", Helvetica, Arial, sans-serif;
+    height: auto;
+    width: 100%;
+  }
+  
+.logo{
+    padding: 20px;
+    margin: 20px;
+    padding-top: 50px;
+    height: auto;
+    width: 70%;
+  }
+
+.title{
+    color: #114881;
+    text-align: center;
+    font-size: 30px;
+    font-family:sans-serif,monospace;
+    font-weight:150;
+}
+
+.login{
+    margin-left: 60%;
+    align-content: center;
+    align-items: center;
+  }
+
+.button {
+    position: relative;
+    padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #108b43;
+    border: none;
+    border-bottom: 5px solid #27ae60;
+    text-shadow: 0px -2px #27ae60;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.button:active {
+    -webkit-transform: translate(0px,5px);
+    -ms-transform: translate(0px,5px);
+    transform: translate(0px,5px);
+    border-bottom: 1px solid #2ecc71;
+}
+
+.sidenav {
+    text-align: left;
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+
+.sidenav a{
+    margin: 10px 15px 10px 5px;
+    padding: 20px 10px 5px 40px;
+    font-size: 20px;
+    font-weight: 300 !important;
+    display: block;
+    text-decoration: none;
+}
+
+.sidenav a:hover {
+    background-color: green;
+    color: whitesmoke;
+}
+
+.currentPage {
+    color: whitesmoke;
+    background-color: green;
+}
+
+.cover {
+    display:flex;
+}
+
+.formWrap{
+    width: 500px;
+    background: whitesmoke;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    border-radius: 1rem;
+    transform: translate(-50%, -50%);
+}
+
+input{
+    width: 380px;
+    border: 1px solid black; 
+    border-radius: 3px; 
+    padding: 6px; 
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
+    font-size: 16px;
+    margin-left: 15px;
+    color: black;
+}
+
+label{
+    font-size: large;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+legend{
+    font-size: larger;
+    text-align: center;
+    color: #FFF;
+    background: green;
+    width : 350px;
+    margin: 10px;
+    padding: 10px;
+}
+
+select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: cursive, sans-serif;
+    outline: 0;
+    background: #2ecc71;
+    color: #fff;
+    border: 1px solid crimson;
+    padding: 8px;
+    border-radius: 9px;
+    font-size: x-large;
+}
+
+
+.add{
+    margin-left: 40px;
+    width: 250px;
+    text-align: center;
+}
+
+.styled-table {
+    align-content: center;
+    font-size: larger;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.2em;
+    min-width: 400px;
+    text-align: center;
+    box-shadow: 20 20 20px rgba(0, 0, 0, 0.15);
+
+}
+
+td {
+    padding: 10px;
+}
+
+.userAddress {
+    width : 350px;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 10px;
+    background: green;
+    color : whitesmoke;
+}
+
+.showWinner{
+    font-weight: bolder;
+    font-size: x-large;
+    align-items: center;
+    top: 80;
+    left: 100;
+    position: relative;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Voting</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+  
+  <div class="formWrap">
+    <form>
+      <fieldset>
+        <legend>Cast Your Vote</legend><br>
+        <table class="styled-table">
+          <thead>
+            <tr class="table_row">
+                <th>Id</th>
+                <th>Party Name</th>
+                <th>Name</th>
+                <th>Click to Vote!</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="candidate1" class="table_row">
+              <td id="candidate1_id">1</td>
+              <td id="candidate1_partyName">Party Name</td>
+              <td id="candidate1_name">Candidate Name</td>
+              <td><button class="button" onclick="">Vote</button></td>
+            </tr>
+
+            <tr id="candidate2" class="table_row">
+              <td id="candidate2_id">2</td>
+              <td id="candidate2_partyName">Party Name</td>
+              <td id="candidate2_name">Candidate Name</td>
+              <td><button class="button" onclick="">Vote</button></td>
+            </tr>
+
+            <tr id="candidate3" class="table_row">
+              <td id="candidate3_id">3</td>
+              <td id="candidate3_partyName">Party Name</td>
+              <td id="candidate3_name">Candidate Name</td>
+              <td><button class="button" onclick="">Vote</button></td>
+            </tr>
+
+            <tr id="candidate4" class="table_row">
+              <td id="candidate4_id">4</td>
+              <td id="candidate4_partyName">Party Name</td>
+              <td id="candidate4_name">Candidate Name</td>
+              <td><button class="button" onclick="">Vote</button></td>
+            </tr>
+                        
+          </tbody>
+        </table>
+      </fieldset>
+    </form>
+    <br>
+  </div>
+  <br>
+  <div class="userAddress"><p id="userAddress" class="text-center"></p></div> 
+
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="src/js/contract.js"></script>
+
+</body>
+</html>

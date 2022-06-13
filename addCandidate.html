@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add Candidates</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div class="cover">
+        <div id="sidenav" class="sidenav">
+            <a href="./addCandidate.html" class="currentPage">Add Candidates</a> <br>
+            <a href="./addVoters.html">Add Voters address</a> <br>
+            <a href="./state.html">Change State</a> <br>
+            <p id="userAddress" class="text-center"></p> <br>
+        </div>
+    </div>
+
+    <div class="formWrap">
+        <form>
+            <fieldset>
+                <legend>Add Candidates</legend><br>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="partyName">Party:</label><br>
+                <input type="text" id="partyName" name="partyName"><br><br>
+                <br>
+                <button class="button" onclick="updateCandidate()">ADD</button>
+            </fieldset>
+        </form>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="src/js/contract.js"></script>
+
+</body>
+</html>
